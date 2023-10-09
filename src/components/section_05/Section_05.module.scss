@@ -1,0 +1,34 @@
+@import '../../variables.scss';
+
+.section_05 {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .divRight {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .h1 {
+            font-size: 2.6rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .div {
+            margin-top: 1rem;
+        }
+    }
+}
+@media (max-width: 938px) {
+    .section_05 {
+        flex-direction: column;
+        .divRight {
+            width: 100%;
+        }
+    }
+}

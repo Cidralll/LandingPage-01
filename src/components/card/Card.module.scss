@@ -1,0 +1,32 @@
+@import '../../variables.scss';
+
+.card {
+    width: 16rem;
+    height: 18rem;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 1rem; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    .h1 {
+        margin-top: 0.5rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .divOrange {
+        width: 90%;
+        height: 4px;
+        background-color: $laranja-principal;
+        border-radius: 20px;
+        margin-top: 0.5rem;
+    }
+    .h2 {
+        margin-top: 0.7rem;
+        font-size: 1.2rem;
+        text-align: center;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+}

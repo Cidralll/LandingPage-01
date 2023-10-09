@@ -1,0 +1,41 @@
+.section_01 {
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.divLeft {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .divTitle {
+        margin-left: 4rem;
+        max-width: 35rem;
+
+        h2 {
+            font-size: 2.8rem;
+            font-weight: bold;
+            margin-bottom: 2.5rem;
+        }
+    }
+}
+
+@media (max-width: 864px) {
+    .section_01{
+        flex-direction: column;
+    }
+    .divLeft {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+}
+@media (max-width: 375px) {
+    .divLeft {
+        h2 {
+            margin-left: -2.5rem;
+        }
+    }
+}

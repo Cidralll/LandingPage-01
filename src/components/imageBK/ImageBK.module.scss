@@ -1,0 +1,13 @@
+.divImg {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 864px) {
+    .divImg{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+}

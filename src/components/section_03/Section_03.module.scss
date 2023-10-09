@@ -1,0 +1,32 @@
+@import '../../variables.scss';
+
+.section_03 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .h1 {
+        margin-top: 3rem;
+        font-size: 2rem;
+        font-weight: bold;
+        color: $laranja-principal;
+    }
+
+    .divOrange {
+        width: 6rem;
+        background-color: $laranja-principal;
+        height: 0.29rem;
+        margin-top: 0.8rem;
+        border-radius: 20px;
+    }
+
+    .divH2 {
+        max-width: 60rem;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        overflow: hidden;
+    }
+}

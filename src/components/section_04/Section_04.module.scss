@@ -1,0 +1,17 @@
+@import '../../variables.scss';
+
+.section_04 {
+    padding: 2rem;
+    margin-top: 4rem;
+    background-color: $laranja-principal;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media (max-width: 938px) {
+    .section_04 {
+        flex-direction: column;
+    }
+}
